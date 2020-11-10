@@ -6,16 +6,16 @@ $(function(){
         if (email == "") {
             $("#email").css("border", "2px solid red");
             $("#arrow").css({
-                "padding-top": "19.5px",
-                "padding-bottom": "19.5px"
+                "padding-top": "18px",
+                "padding-bottom": "18px"
             });
             $("#error").css("display", "inline");
             $("#alert").css("visibility", "visible");
         } else if (re.test(String(email).toLowerCase()) == false) {
             $("#email").css("border", "2px solid red");
             $("#arrow").css({
-                "padding-top": "19.5px",
-                "padding-bottom": "19.5px"
+                "padding-top": "18px",
+                "padding-bottom": "18px"
             });
             $("#error").css("display", "inline");
             $("#alert").css("visibility", "visible").text("Looks like this is not an email");

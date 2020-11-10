@@ -48,12 +48,13 @@ p{
 }
 
 #arrow{
-    padding: 18.5px 45px;
-    background: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
-    background-size: cover;
-    border-radius: 40px;
     position: absolute;
     right: 40px;
+    padding: 17px 45px;
+    border: none;
+    border-radius: 40px;
+    background-image: url(./images/icon-arrow.svg);
+    background: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
 }
 
 form{
